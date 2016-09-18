@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E722449C1D8EC1A600875A1D /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E722449B1D8EC1A600875A1D /* ConcreteComponent.m */; };
+		E722449F1D8EC22700875A1D /* ConcreteDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E722449E1D8EC22700875A1D /* ConcreteDecorator.m */; };
+		E72244A21D8EC23400875A1D /* ConcreteDecorator1.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244A11D8EC23400875A1D /* ConcreteDecorator1.m */; };
+		E72244A71D8ED16500875A1D /* UIImage+ImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244A61D8ED16500875A1D /* UIImage+ImageComponent.m */; };
+		E72244AA1D8ED25300875A1D /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244A91D8ED25300875A1D /* ImageFilter.m */; };
+		E72244AD1D8ED26C00875A1D /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244AC1D8ED26C00875A1D /* ImageTransformFilter.m */; };
+		E72244B01D8ED27900875A1D /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244AF1D8ED27900875A1D /* ImageShadowFilter.m */; };
+		E72244B21D8ED53D00875A1D /* beauty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E72244B11D8ED53D00875A1D /* beauty.jpg */; };
+		E72244B51D8ED81A00875A1D /* HMYImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244B41D8ED81A00875A1D /* HMYImageView.m */; };
+		E72244B91D8EDB0E00875A1D /* UIImage+BaseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244B81D8EDB0E00875A1D /* UIImage+BaseFilter.m */; };
+		E72244BC1D8EDC3800875A1D /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244BB1D8EDC3800875A1D /* UIImage+Transform.m */; };
+		E72244BF1D8EDCB800875A1D /* UIImage+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = E72244BE1D8EDCB800875A1D /* UIImage+Shadow.m */; };
 		E727D6EC1D8EA89900BD82B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E727D6EB1D8EA89900BD82B8 /* main.m */; };
 		E727D6EF1D8EA89900BD82B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E727D6EE1D8EA89900BD82B8 /* AppDelegate.m */; };
 		E727D6F21D8EA89900BD82B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E727D6F11D8EA89900BD82B8 /* ViewController.m */; };
@@ -15,6 +27,7 @@
 		E727D6FA1D8EA89900BD82B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E727D6F81D8EA89900BD82B8 /* LaunchScreen.storyboard */; };
 		E727D7051D8EA89A00BD82B8 /* DecoratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E727D7041D8EA89A00BD82B8 /* DecoratorTests.m */; };
 		E727D7101D8EA89A00BD82B8 /* DecoratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E727D70F1D8EA89A00BD82B8 /* DecoratorUITests.m */; };
+		E727D7241D8EA90700BD82B8 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = E727D7231D8EA90700BD82B8 /* Decorator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E722449A1D8EC1A600875A1D /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
+		E722449B1D8EC1A600875A1D /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
+		E722449D1D8EC22700875A1D /* ConcreteDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecorator.h; sourceTree = "<group>"; };
+		E722449E1D8EC22700875A1D /* ConcreteDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecorator.m; sourceTree = "<group>"; };
+		E72244A01D8EC23400875A1D /* ConcreteDecorator1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecorator1.h; sourceTree = "<group>"; };
+		E72244A11D8EC23400875A1D /* ConcreteDecorator1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecorator1.m; sourceTree = "<group>"; };
+		E72244A41D8ED13D00875A1D /* ImageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageComponent.h; sourceTree = "<group>"; };
+		E72244A51D8ED16500875A1D /* UIImage+ImageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageComponent.h"; sourceTree = "<group>"; };
+		E72244A61D8ED16500875A1D /* UIImage+ImageComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageComponent.m"; sourceTree = "<group>"; };
+		E72244A81D8ED25300875A1D /* ImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
+		E72244A91D8ED25300875A1D /* ImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
+		E72244AB1D8ED26C00875A1D /* ImageTransformFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransformFilter.h; sourceTree = "<group>"; };
+		E72244AC1D8ED26C00875A1D /* ImageTransformFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransformFilter.m; sourceTree = "<group>"; };
+		E72244AE1D8ED27900875A1D /* ImageShadowFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageShadowFilter.h; sourceTree = "<group>"; };
+		E72244AF1D8ED27900875A1D /* ImageShadowFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageShadowFilter.m; sourceTree = "<group>"; };
+		E72244B11D8ED53D00875A1D /* beauty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beauty.jpg; sourceTree = "<group>"; };
+		E72244B31D8ED81A00875A1D /* HMYImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMYImageView.h; sourceTree = "<group>"; };
+		E72244B41D8ED81A00875A1D /* HMYImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMYImageView.m; sourceTree = "<group>"; };
+		E72244B71D8EDB0E00875A1D /* UIImage+BaseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BaseFilter.h"; sourceTree = "<group>"; };
+		E72244B81D8EDB0E00875A1D /* UIImage+BaseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BaseFilter.m"; sourceTree = "<group>"; };
+		E72244BA1D8EDC3800875A1D /* UIImage+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Transform.h"; sourceTree = "<group>"; };
+		E72244BB1D8EDC3800875A1D /* UIImage+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Transform.m"; sourceTree = "<group>"; };
+		E72244BD1D8EDCB800875A1D /* UIImage+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Shadow.h"; sourceTree = "<group>"; };
+		E72244BE1D8EDCB800875A1D /* UIImage+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Shadow.m"; sourceTree = "<group>"; };
 		E727D6E71D8EA89900BD82B8 /* Decorator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Decorator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E727D6EB1D8EA89900BD82B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E727D6ED1D8EA89900BD82B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +88,9 @@
 		E727D70B1D8EA89A00BD82B8 /* DecoratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E727D70F1D8EA89A00BD82B8 /* DecoratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorUITests.m; sourceTree = "<group>"; };
 		E727D7111D8EA89A00BD82B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E727D7211D8EA8BB00BD82B8 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		E727D7221D8EA90700BD82B8 /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		E727D7231D8EA90700BD82B8 /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +118,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E72244A31D8ED10500875A1D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E72244A41D8ED13D00875A1D /* ImageComponent.h */,
+				E72244A51D8ED16500875A1D /* UIImage+ImageComponent.h */,
+				E72244A61D8ED16500875A1D /* UIImage+ImageComponent.m */,
+				E72244A81D8ED25300875A1D /* ImageFilter.h */,
+				E72244A91D8ED25300875A1D /* ImageFilter.m */,
+				E72244AB1D8ED26C00875A1D /* ImageTransformFilter.h */,
+				E72244AC1D8ED26C00875A1D /* ImageTransformFilter.m */,
+				E72244AE1D8ED27900875A1D /* ImageShadowFilter.h */,
+				E72244AF1D8ED27900875A1D /* ImageShadowFilter.m */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		E72244B61D8EDAF400875A1D /* ImageCat */ = {
+			isa = PBXGroup;
+			children = (
+				E72244B71D8EDB0E00875A1D /* UIImage+BaseFilter.h */,
+				E72244B81D8EDB0E00875A1D /* UIImage+BaseFilter.m */,
+				E72244BA1D8EDC3800875A1D /* UIImage+Transform.h */,
+				E72244BB1D8EDC3800875A1D /* UIImage+Transform.m */,
+				E72244BD1D8EDCB800875A1D /* UIImage+Shadow.h */,
+				E72244BE1D8EDCB800875A1D /* UIImage+Shadow.m */,
+			);
+			name = ImageCat;
+			sourceTree = "<group>";
+		};
+		E72244C01D8EDF3500875A1D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E72244B11D8ED53D00875A1D /* beauty.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		E727D6DE1D8EA89900BD82B8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +178,16 @@
 		E727D6E91D8EA89900BD82B8 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				E72244C01D8EDF3500875A1D /* Image */,
+				E72244B61D8EDAF400875A1D /* ImageCat */,
+				E72244A31D8ED10500875A1D /* Image */,
+				E727D71D1D8EA89F00BD82B8 /* Normal */,
 				E727D6ED1D8EA89900BD82B8 /* AppDelegate.h */,
 				E727D6EE1D8EA89900BD82B8 /* AppDelegate.m */,
 				E727D6F01D8EA89900BD82B8 /* ViewController.h */,
 				E727D6F11D8EA89900BD82B8 /* ViewController.m */,
+				E72244B31D8ED81A00875A1D /* HMYImageView.h */,
+				E72244B41D8ED81A00875A1D /* HMYImageView.m */,
 				E727D6F31D8EA89900BD82B8 /* Main.storyboard */,
 				E727D6F61D8EA89900BD82B8 /* Assets.xcassets */,
 				E727D6F81D8EA89900BD82B8 /* LaunchScreen.storyboard */,
@@ -138,6 +221,22 @@
 				E727D7111D8EA89A00BD82B8 /* Info.plist */,
 			);
 			path = DecoratorUITests;
+			sourceTree = "<group>";
+		};
+		E727D71D1D8EA89F00BD82B8 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				E727D7211D8EA8BB00BD82B8 /* Component.h */,
+				E727D7221D8EA90700BD82B8 /* Decorator.h */,
+				E727D7231D8EA90700BD82B8 /* Decorator.m */,
+				E722449A1D8EC1A600875A1D /* ConcreteComponent.h */,
+				E722449B1D8EC1A600875A1D /* ConcreteComponent.m */,
+				E722449D1D8EC22700875A1D /* ConcreteDecorator.h */,
+				E722449E1D8EC22700875A1D /* ConcreteDecorator.m */,
+				E72244A01D8EC23400875A1D /* ConcreteDecorator1.h */,
+				E72244A11D8EC23400875A1D /* ConcreteDecorator1.m */,
+			);
+			name = Normal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +348,7 @@
 				E727D6FA1D8EA89900BD82B8 /* LaunchScreen.storyboard in Resources */,
 				E727D6F71D8EA89900BD82B8 /* Assets.xcassets in Resources */,
 				E727D6F51D8EA89900BD82B8 /* Main.storyboard in Resources */,
+				E72244B21D8ED53D00875A1D /* beauty.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +373,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E72244AD1D8ED26C00875A1D /* ImageTransformFilter.m in Sources */,
 				E727D6F21D8EA89900BD82B8 /* ViewController.m in Sources */,
+				E727D7241D8EA90700BD82B8 /* Decorator.m in Sources */,
+				E722449F1D8EC22700875A1D /* ConcreteDecorator.m in Sources */,
+				E72244BC1D8EDC3800875A1D /* UIImage+Transform.m in Sources */,
+				E72244B01D8ED27900875A1D /* ImageShadowFilter.m in Sources */,
+				E72244B91D8EDB0E00875A1D /* UIImage+BaseFilter.m in Sources */,
+				E72244B51D8ED81A00875A1D /* HMYImageView.m in Sources */,
+				E72244BF1D8EDCB800875A1D /* UIImage+Shadow.m in Sources */,
 				E727D6EF1D8EA89900BD82B8 /* AppDelegate.m in Sources */,
+				E722449C1D8EC1A600875A1D /* ConcreteComponent.m in Sources */,
+				E72244A71D8ED16500875A1D /* UIImage+ImageComponent.m in Sources */,
+				E72244A21D8EC23400875A1D /* ConcreteDecorator1.m in Sources */,
+				E72244AA1D8ED25300875A1D /* ImageFilter.m in Sources */,
 				E727D6EC1D8EA89900BD82B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +613,7 @@
 				E727D7161D8EA89A00BD82B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E727D7171D8EA89A00BD82B8 /* Build configuration list for PBXNativeTarget "DecoratorTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +622,7 @@
 				E727D7191D8EA89A00BD82B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E727D71A1D8EA89A00BD82B8 /* Build configuration list for PBXNativeTarget "DecoratorUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +631,7 @@
 				E727D71C1D8EA89A00BD82B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
